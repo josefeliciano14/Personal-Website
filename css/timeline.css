@@ -133,6 +133,10 @@
     width:280px;
 }
 
+.psa-img{
+    height: 150px;
+}
+
 .homedepot-logo{
     position: absolute;
     left: calc(50% + var(--icon-distance) + 20px);
