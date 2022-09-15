@@ -1,0 +1,85 @@
+.title-container{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.download-link{
+    margin-bottom: 20px;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: center;
+} 
+
+.paper{
+    background-color: white;
+    color: black;
+    min-height: 1035px;
+    width: 800px;
+}
+
+.resume{
+    padding: 45px;
+}
+
+.resume-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.desc{
+    margin-bottom: 10px;
+}
+
+.section{
+    padding: 20px; 
+}
+
+.section-unit{
+    margin-bottom: 20px;
+}
+
+.section-title{
+    font-weight: 500;
+}
+
+.dates{
+    font-weight: 400;
+}
+
+.unit-title{
+    font-weight: 400;
+}
+
+.unit-title > span{
+    font-weight: 600;
+}
+
+.skills-section{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    margin-top: 20px;
+}
+
+.skills-list > li{
+    margin-bottom: 7px;
+}

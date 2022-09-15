@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    --line-width: 2px;
+    --icon-distance: 140px;
+    --year-distance: calc(var(--icon-distance)/2 - 15px);
+
+    --uprm-logo-size: 70px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.background{
+    background: radial-gradient(circle, rgba(2,0,36,0.7), rgb(32, 38, 52));
+    color: white;
+    font-family: roboto;
+    padding-bottom: 80px;
+
+    overflow: hidden;
+
+    min-height: 100vh;
+}
+
+nav{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    min-height: 8vh;
+    padding-bottom: 40px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}

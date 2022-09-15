@@ -1,0 +1,87 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio{
+    display: flex;
+
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+    width: 100%;
+}
+
+.bio-card-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    flex: 1;
+}
+
+.bio-card{
+    border-radius: 25px;
+    background-color: rgba(2,0,36,0.18);
+
+    padding: 40px;
+
+    position: relative;
+    right: 180px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bio-text{
+    margin-left: 10px;
+    margin-top: 40px;
+    flex: 1;
+
+    position: relative;
+    right: 100px;
+}
+
+.bio-text > h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.bio-text > p{
+    max-width: 550px;
+    font-size: 18px;
+}
+
+.bio-card > img{ 
+    width: 150px;
+
+    margin-bottom: 15px;
+}
+
+.bio-name{
+    font-size: 20px;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.item-container > i{
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    width: 800px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

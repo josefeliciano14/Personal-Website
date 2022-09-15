@@ -1,0 +1,190 @@
+.title{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.timeline{
+    /*background-color: rgb(32, 38, 52);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.start{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.instruction{
+    position: relative;
+    left: 250px;
+    height: 0px;
+    font-size: 18px;
+}
+
+.dot{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.entry{
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.entry > .mid-line{
+    position: absolute;
+    height: 100%;
+    width: var(--line-width);
+    background-color: white;
+}
+
+.entry > .side-line{
+    position: absolute;
+    height: var(--line-width);
+    width: var(--icon-distance);
+    background-color: white;
+}
+
+.entry-right > .side-line{
+    left: 50%;
+}
+
+.entry-left > .side-line{
+    right: 50%;
+}
+
+.entry > .year{
+    position: absolute;
+    top: calc(50% + 10px);
+}
+
+.entry-left > .year{
+    right: calc(50% + var(--year-distance));
+}
+
+.entry-right > .year{
+    left: calc(50% + var(--year-distance));
+}
+
+.entry > .icon { 
+    position: absolute;
+    font-size: 60px;
+    max-height: 150px;
+}
+
+.entry-right > .icon{
+    left: calc(50% + var(--icon-distance) + 10px);
+}
+
+.entry-left > .icon{
+    right: calc(50% + var(--icon-distance) + 10px);
+}
+
+.icon > .circle{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.uprm-logo{
+    height: 120px;
+}
+
+.entry > .text{
+    position: absolute;
+    text-align: center;
+}
+
+.entry-right > .text{
+    right: calc(50% + 30px);
+}
+
+.entry-left > .text{
+    left: calc(50% + 30px);
+}
+
+.aiaa-logo{
+    position: absolute;
+    left: calc(50% + var(--icon-distance) + 20px);
+    top: 35%;
+    width:200px;
+}
+
+.entry-title{
+    margin-bottom: 7px;
+}
+
+.johnson-logo{
+    position: absolute;
+    right: calc(50% + var(--icon-distance) + 20px);
+    width:280px;
+}
+
+.homedepot-logo{
+    position: absolute;
+    left: calc(50% + var(--icon-distance) + 20px);
+    width:130px;
+}
+
+.ddec-logo{
+    position: absolute;
+    right: calc(50% + var(--icon-distance) + 20px);
+    width:110px;
+}
+
+.honeywell-logo{
+    position: absolute;
+    left: calc(50% + var(--icon-distance) + 20px);
+    width:220px;
+}
+
+.info-container{
+    width: 100%;
+
+    height: 0;
+    opacity: 0;
+}
+
+.point-info{
+    background-color: white;
+    color: black;
+
+    padding: 40px;
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.point-info p{
+    max-width: 60%;
+    text-align: justify;
+}
+
+.point-info img{
+    max-height: 230px;
+}
+
+#home-depot-info > img{
+    height: 180px;
+}
+
+.platform-image{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    justify-content: center;
+}
